@@ -1,0 +1,109 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Ubuntu', sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+:root {
+    --border-color : #449399;
+    --header-background-color : #313c4e;
+    --black-dark : #222a33;
+}
+
+
+/* Header Starts Here */
+
+.header{
+    display: flex;
+    flex-direction: row;    
+    padding:35px;    
+    background-color: var(--header-background-color);
+    color: white;
+    justify-content: space-between;
+}
+
+.left-header{
+    width: 60%;
+}
+
+
+.profile-img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: var(--border-color);
+}
+
+.name{
+    font-size: 46px;
+    padding:5px 0px;
+    font-weight: bold;
+}
+
+.career-obj{
+    font-size:16px;
+    padding:20px 0px;
+}
+.course{
+    font-size:22px;
+    color:var(--border-color);
+}
+
+/* Social Starts Here */
+
+.social{
+    background-color: var(--black-dark);
+    color: white;
+    padding: 10px;
+}
+.social-row{
+    display: flex;    
+    padding: 10px 10px;
+    width:100%;
+}
+.social-element{
+    width: 33.33%;
+    font-size: 16px;
+}
+
+.favicon{
+    width:20px;
+}
+
+/* Content Container Starts Here */
+
+.left-pane{
+    width:60%;
+}
+
+.right-pane{
+    width:40%;
+}
+
+/* Pane Settings */
+
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.sub-container{
+    padding:10px;
+}
+
+.sub-cont-title{
+    font-size:28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:var(--border-color);
+    border-bottom: 3px solid black;
+    border-color: var(--border-color);
+}
+
+/* Experience Starts Here */
+
