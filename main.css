@@ -107,3 +107,45 @@ a{
 
 /* Experience Starts Here */
 
+.experience-element div{
+    
+    /* font-weight: bold; */
+}
+.exp-title{
+    padding:5px 0px;
+    font-weight: bold;
+}
+.exp-duration{
+    font-size: 13px;
+    color: var(--border-color);
+    font-style: italic;
+}
+.exp-desc{
+    padding:5px 0px;
+    font-style: italic;
+}
+
+/* Achievements Starts Here */
+
+.achieve-entry{
+    padding: 10px 0px;
+}
+.achieve-entry-title{
+    padding: 4px 0px;
+    font-weight: bold;
+}
+.achieve-entry-issued-by{
+    font-size:13px;
+    font-style: italic;
+}
+
+/* Tech Stack */
+
+.tech-title{
+    font-weight: bolder;
+    padding: 8px 0px;
+}
+.tech-stack-content{
+    font-size: 13px;
+    font-style: italic;
+}
