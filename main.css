@@ -223,3 +223,14 @@ a{
 .education-entry{
     padding: 10px 0px;
 }
+
+
+/* Workshop Starts Here */
+
+.workshop-entry{
+    margin: 10px 0px;
+}
+
+.workshop-title{
+    font-weight: bold;
+}
