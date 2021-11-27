@@ -65,7 +65,7 @@ a{
 .social-row{
     display: flex;    
     padding: 10px 10px;
-    width:100%;
+    /* width:100%; */
 }
 .social-element{
     width: 33.33%;
@@ -91,10 +91,11 @@ a{
 .content{
     display: flex;
     flex-direction: row;
+    margin-left: 15px;
 }
 
 .sub-container{
-    padding:7px;
+    padding:10px 0px;
 }
 
 .sub-cont-title{
@@ -108,10 +109,7 @@ a{
 
 /* Experience Starts Here */
 
-.experience-element div{
-    
-    /* font-weight: bold; */
-}
+
 .exp-title{
     padding:5px 0px;
     font-weight: bold;
@@ -199,11 +197,12 @@ a{
 
 .project-title{
     font-weight: bold;
+    font-size: 18;
     padding : 15px 0px 5px 0px;
 }
 .project-desc{
     padding: 0px 17px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Education Sarts here */
