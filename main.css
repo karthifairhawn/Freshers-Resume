@@ -15,7 +15,10 @@ a {
     --black-dark: #222a33;
 }
 
-
+.web-url{
+    opacity: 0.5;
+    font-size: 13px;
+}
 
 /* Header Starts Here */
 
@@ -26,10 +29,6 @@ a {
     background-color: var(--header-background-color);
     color: white;
     justify-content: space-between;
-}
-
-.left-header {
-    width: 60%;
 }
 
 .experience-element {
@@ -141,8 +140,7 @@ a {
 }
 
 .exp-desc {
-    padding: 5px 0px;
-    font-style: italic;
+    padding: 5px 0px;    
 }
 
 /* Achievements Starts Here */
@@ -229,8 +227,7 @@ background-color: rgba(128, 128, 128, 0.734); */
 }
 
 .project-desc {
-    padding: 0px 17px;
-    font-size: 15px;
+    padding: 0px 17px;    
 }
 
 .project-desc ul li {
@@ -276,4 +273,8 @@ background-color: rgba(128, 128, 128, 0.734); */
 .workshop-issued-by {
     font-size: 13px;
     font-style: italic;
+}
+
+li{
+    line-height: 23px;
 }
