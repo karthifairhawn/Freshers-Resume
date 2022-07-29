@@ -1,108 +1,127 @@
 *{
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
-a{
+
+a {
     color: white;
     text-decoration: none;
 }
+
 :root {
-    --border-color : #449399;
-    --header-background-color : #313c4e;
-    --black-dark : #222a33;
+    --border-color: #449399;
+    --header-background-color: #313c4e;
+    --black-dark: #222a33;
 }
 
 
 
 /* Header Starts Here */
 
-.header{
+.header {
     display: flex;
-    flex-direction: row;    
-    padding:35px;    
+    flex-direction: row;
+    padding: 10px 30px;
     background-color: var(--header-background-color);
     color: white;
     justify-content: space-between;
 }
 
-.left-header{
+.left-header {
     width: 60%;
 }
 
+.experience-element {
+    padding: 10px 0px;
+}
 
-.profile-img{
+.right-header {
     width: 180px;
     height: 180px;
     border-radius: 50%;
     border-width: 5px;
     border-style: solid;
     border-color: var(--border-color);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
 }
 
-.name{
-    font-size: 46px;
-    padding:5px 0px;
+.profile-img {
+    width: 160px;
+    margin-top: 26px;
+    zoom:130%;
+}
+
+.name {
+    font-size: 66px;
+    padding: 5px 0px;
     font-weight: bold;
 }
 
-.career-obj{
-    font-size:16px;
-    padding:20px 0px;
+.career-obj {
+    font-size: 16px;
+    padding: 20px 0px;
 }
-.course{
-    font-size:22px;
-    color:var(--border-color);
+
+.course {
+    font-size: 32px;
+    color: var(--border-color);
 }
 
 /* Social Starts Here */
 
-.social{
+.social {
     background-color: var(--black-dark);
     color: white;
     padding: 10px;
 }
-.social-row{
-    display: flex;    
+
+.social-row {
+    display: flex;
     padding: 10px 10px;
     /* width:100%; */
 }
-.social-element{
+
+.social-element {
     width: 33.33%;
     font-size: 16px;
 }
 
-.favicon{
-    width:20px;
+.favicon {
+    width: 20px;
 }
 
 /* Content Container Starts Here */
 
-.left-pane{
-    width:60%;
+.left-pane {
+    width: 60%;
 }
 
-.right-pane{
-    width:40%;
+.right-pane {
+    width: 40%;
 }
 
 /* Pane Settings */
 
-.content{
+.content {
     display: flex;
     flex-direction: row;
     margin-left: 15px;
 }
 
-.sub-container{
-    padding:10px 0px;
+.sub-container {
+    padding: 5px 0px;
 }
 
-.sub-cont-title{
-    font-size:28px;
+.sub-cont-title {
+    font-size: 23px;
     text-transform: uppercase;
     font-weight: bold;
-    color:var(--border-color);
+    color: var(--border-color);
     border-bottom: 3px solid black;
     border-color: var(--border-color);
 }
@@ -110,126 +129,151 @@ a{
 /* Experience Starts Here */
 
 
-.exp-title{
-    padding:5px 0px;
+.exp-title {
+    padding: 5px 0px;
     font-weight: bold;
 }
-.exp-duration{
+
+.exp-duration {
     font-size: 13px;
     color: var(--border-color);
     font-style: italic;
 }
-.exp-desc{
-    padding:5px 0px;
+
+.exp-desc {
+    padding: 5px 0px;
     font-style: italic;
 }
 
 /* Achievements Starts Here */
 
-.achieve-entry{
+.achieve-entry {
     padding: 10px 0px;
 }
-.achieve-entry-title{
+
+.achieve-entry-title {
     padding: 4px 0px;
     font-weight: bold;
 }
-.achieve-entry-issued-by{
-    font-size:13px;
+
+.achieve-entry-issued-by {
+    font-size: 13px;
     font-style: italic;
 }
 
 /* Tech Stack */
 
-.tech-title{
+.tech-title {
     font-weight: bolder;
     padding: 8px 0px 5px 0px;
 }
-.tech-stack-content{
-    font-size: 13px;
+
+.tech-stack-content {
+    font-size: 15px;
     font-style: italic;
 }
 
 /* Certification Starts Here  */
 
-.certificate-entry{
-    padding : 10px 0px;
+.certificate-entry {
+    padding: 10px 0px;
 }
 
-.certificate-title{
+.certificate-title {
     font-weight: bold;
 }
-.certificate-issued-by{
+
+.certificate-issued-by {
     font-style: italic;
-    font-size:13px;
+    font-size: 13px;
 }
 
 /* Area of Interest Starts Here */
 
-.area-of-interest-container{
+.area-of-interest-container {
     padding: 15px 0px;
 }
-.aot-element{
+
+.aot-element {
     border: 1px solid grey;
     padding: 3px;
-    border-radius:5px;
-    margin:0px 5px 0px 0px;
-    font-size:13px;
+    border-radius: 5px;
+    margin: 0px 5px 0px 0px;
+    font-size: 14px;
     color: white;
     background-color: rgba(128, 128, 128, 0.734);
 }
 
 /* Hobbies and Traits */
 
-.hobbies-container{
+.hobbies-container {
     padding: 15px 0px;
 }
-.hob-element{
+
+.hob-element {
     border: 1px solid grey;
     padding: 3px;
-    border-radius:5px;
-    font-size:13px;
+    border-radius: 5px;
+    font-size: 14px;
     /* color: white;
-    background-color: rgba(128, 128, 128, 0.734); */
+background-color: rgba(128, 128, 128, 0.734); */
 }
 
 
 /* Project Starts Here */
 
-.project-title{
+.project-title {
     font-weight: bold;
     font-size: 18;
-    padding : 15px 0px 5px 0px;
+    padding: 15px 0px 5px 0px;
 }
-.project-desc{
+
+.project-desc {
     padding: 0px 17px;
-    font-size: 16px;
+    font-size: 15px;
+}
+
+.project-desc ul li {
+    padding: 3px 0px 3px 0px;
 }
 
 /* Education Sarts here */
 
-.education-dur-gpa{
+.education-dur-gpa {
     display: flex;
     justify-content: space-between;
-    width:80%;
+    width: 80%;
     font-size: 13px;
     color: var(--border-color);
     font-style: italic;
 }
-.education-title{
+
+.education-title {
     font-weight: bold;
     text-transform: uppercase;
 }
-.education-entry{
+
+.education-entry {
     padding: 10px 0px;
 }
 
 
 /* Workshop Starts Here */
 
-.workshop-entry{
+.workshop-desc {
+    font-size: 15px;
+    margin: 7px 15px;
+}
+
+.workshop-entry {
     margin: 10px 0px;
 }
 
-.workshop-title{
+.workshop-title {
     font-weight: bold;
+}
+
+.workshop-issued-by {
+    font-size: 13px;
+    font-style: italic;
 }
